@@ -2,9 +2,11 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "fs_async.js",
+  "main": "intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node intro.js",
+    "dev": "nodemon modules.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "bootstrap": "^5.1.1",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
+    "nodemon": "^2.0.13",
     "popper.js": "^1.16.1"
   }
 }

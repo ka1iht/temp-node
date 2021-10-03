@@ -6,7 +6,7 @@ console.log(alt.peep.name)
 
 const sum = require("./modules_function")
 
-sayHello("Thilak")
+sayHello("Kishore")
 sayHello(names.Jai)
 sayHello(names.Prags)
 
